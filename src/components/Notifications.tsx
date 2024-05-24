@@ -9,7 +9,7 @@ interface INotification {
 export default function Notifications({ notifications }: { notifications: string }) {
 
     const { notifications: notif } = JSON.parse(notifications)
-    console.log(notif);
+    // console.log(notif);
 
     return (
         <div className='flex flex-col gap-2'>
